@@ -17,14 +17,7 @@
 
     // check if previouse name was saved
     $admin_username = (isset($_COOKIE['remember_name']) && ($_COOKIE['remember_name'] != "")) ? $_COOKIE['remember_name'] : "";
-    $remember_me    = (isset($_COOKIE['remember_name']) && ($_COOKIE['remember_name'] != "")) ? "checked" : "";
-
-    session_start();
-    include_once("inc/config.inc.php");   
-    include_once("inc/functions.inc.php");    
-    require_once("inc/settings.inc.php");
-
-    $log = (isset($_REQUEST['log'])) ? "out" : "";
+  et($_REQUEST['log'])) ? "out" : "";
     $msg = (isset($_REQUEST['msg'])) ? $_REQUEST['msg'] : "";
     
     $adm_logged = (isset($_SESSION['adm_logged'])) ? $_SESSION['adm_logged'] : false;
