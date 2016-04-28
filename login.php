@@ -20,7 +20,7 @@
   et($_REQUEST['log'])) ? "out" : "";
     $msg = (isset($_REQUEST['msg'])) ? $_REQUEST['msg'] : "";
     
-    $adm_loggeddqqqdqdqd
+    $adm_loggeddqqqdqdqddd
     </td>
 </tr>
 </tbody>
